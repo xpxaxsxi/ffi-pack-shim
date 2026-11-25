@@ -1,4 +1,4 @@
-# ffi-pack-shim — WebGPU from SWI-Prolog (via Rust's wgpu-native FFI) and pack ffi
+# ffi-pack-shim — WebGPU from SWI-Prolog (via Rust's wgpu-native FFI) with pack ffi
 
 EDIT: A beginner's succesful idea to use pack ffi to communicate with WebGPU from Rust framework (Rust installation is  not needed), an idea that Vibe AI made possible. Vibe claims that the simple functionality from this shim is lacking from Jan Wielemaker's ffi pack and if it were in ffi pack then accessing WebGPU from SWI-Prolog would work straight out of the box.
 
