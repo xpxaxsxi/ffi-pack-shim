@@ -28,7 +28,8 @@ output: [2,4,6,8,10,12,14,16]
 │                    takes a plain C callback pointer instead
 └── lib/             wgpu-native release (include/webgpu/*.h, lib/libwgpu_native.so)
 ```
-Unpack the https://github.com/gfx-rs/wgpu-native/releases/download/v29.0.1.1/wgpu-linux-x86_64-release.zip to lib directory
+Unpack the https://github.com/gfx-rs/wgpu-native/releases/download/v29.0.1.1/wgpu-linux-x86_64-release.zip to lib directory and install the pack https://www.swi-prolog.org/pack/list?p=ffi
+
 ## Run
 
 ```
