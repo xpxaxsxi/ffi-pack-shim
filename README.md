@@ -59,6 +59,7 @@ gcc -shared -fPIC -O2 -I lib/include/webgpu wgpu4pl.c -o wgpu4pl.so \
 ```
 
 ## Project state (resume notes, 2026-11-25)
+EDIT: Me and Vibe planned to fork the ffi pack and do a PR, but my understanding of this all is so low that I decided to not do a fork and PR.
 
 - `wgpu_hello.pl` works: `main/0` (8-element demo), `bench(N, K)`
   (compute-heavy kernel; last run: 392x GPU-vs-Prolog kernel speedup,
