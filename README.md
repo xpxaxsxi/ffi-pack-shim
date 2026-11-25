@@ -1,8 +1,8 @@
 # ffi-pack-shim — WebGPU from SWI-Prolog (via Rust's wgpu-native FFI)
 
-EDIT: A beginner's succesful idea to use pack ffi to communicate with WebGPU from Rust framework (Rust installation is  not needed), an idea that Vibe AI made possible. Vibe claims that functionality from this shim is lacking from Jan Wielemaker's ffi pack
+EDIT: A beginner's succesful idea to use pack ffi to communicate with WebGPU from Rust framework (Rust installation is  not needed), an idea that Vibe AI made possible. Vibe claims that the simple functionality from this shim is lacking from Jan Wielemaker's ffi pack and if it were in ffi pack then accessing WebGPU from SWI-Prolog would work straight out of the box.
 
-PLEASE DO NOT ASK SUPPORT FROM ME, I only understand that the small example program works in my low resource Linux Mint 22.2 
+PLEASE DO NOT ASK SUPPORT FROM ME, I only understand that the small example program works in my low resource Linux Mint 22.2, tested with latest swipl development versions.
 
 A beginner GPU program written in SWI-Prolog that calls the C FFI of Rust's
 [wgpu](https://github.com/gfx-rs/wgpu) (`wgpu-native`, prebuilt
